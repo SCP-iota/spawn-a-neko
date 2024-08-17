@@ -1,0 +1,48 @@
+.spawn-a-neko-button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #cc0099;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    border-top-left-radius: 100%;
+    transition: 0.2s;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.spawn-a-neko-button:hover {
+    background-color: #990099;
+}
+
+.spawn-a-neko-button:active {
+    background-color: #ff00ff;
+}
+
+.spawn-a-neko-panel {
+    position: fixed;
+    right: 3rem;
+    bottom: 0;
+    background: #cc0099;
+    transition: 0.5s;
+    padding: 0.5rem;
+    border: 2px solid #660066;
+    border-radius: 0.25rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.spawn-a-neko-panel-closed {
+    bottom: -100%;
+}
+
+.spawn-a-neko-spawn-button {
+    background-color: #9900ff;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+}

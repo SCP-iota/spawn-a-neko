@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "lib/esm",
+        "declaration": true,
+        "target": "ES6",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts"]
+}
