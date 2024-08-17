@@ -11,7 +11,7 @@ For an example of a site that includes the widget, see [my blog](https://scp-iot
 You'll need to include the CSS in your page for this to work. Add this somewhere in your HTML `<head>`:
 
 ```html
-<link rel="styleshet" href="https://cdn.jsdelivr.net/gh/SCP-iota/spawn-a-neko@master/style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SCP-iota/spawn-a-neko@master/style.css" type="text/css" crossorigin="anonymous" />
 ```
 
 ### Include the Script in HTML
