@@ -4,6 +4,14 @@ This is a silly little JavaScript package to easily embed a widget on your websi
 
 ## Usage
 
+### Include the CSS
+
+You'll need to include the CSS in your page for this to work. Add this somewhere in your HTML `<head>`:
+
+```html
+<link rel="styleshet" src="https://cdn.jsdelivr.net/gh/SCP-iota/spawn-a-neko@master/style.css" />
+```
+
 ### Include the Script in HTML
 
 Include this towards the end of your HTML's `<body>` element:
@@ -15,7 +23,7 @@ Include this towards the end of your HTML's `<body>` element:
 </script>
 ```
 
-### Use with a JavaScript Bundler...
+### Or Use with a JavaScript Bundler...
 
 If you're using a JavaScript bundler like Webpack, you can get the `spawn-a-neko` package from NPM and include it in your site's code.
 

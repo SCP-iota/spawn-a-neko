@@ -1,6 +1,6 @@
 {
   "name": "spawn-a-neko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed a popup menu for users to spawn oneko-like nekos on your website",
   "main": "lib/commonjs/index.cjs",
   "exports": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SCP-iota/spawn-a-neko.git"
+    "url": "git+https://github.com/SCP-iota/spawn-a-neko.git"
   },
   "devDependencies": {
     "renamer": "^5.0.2",
