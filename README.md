@@ -2,6 +2,8 @@
 
 This is a silly little JavaScript package to easily embed a widget on your website that lets users spawn [oneko](https://github.com/glreno/oneko)-like nekos the follow the pointer!
 
+For an example of a site that includes the widget, see [my blog](https://scp-iota.github.io).
+
 ## Usage
 
 ### Include the CSS
