@@ -1,6 +1,6 @@
 {
   "name": "spawn-a-neko",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Embed a popup menu for users to spawn oneko-like nekos on your website",
   "main": "lib/commonjs/index.cjs",
   "exports": {

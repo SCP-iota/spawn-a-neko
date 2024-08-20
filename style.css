@@ -2,7 +2,7 @@
     position: fixed;
     right: 0;
     bottom: 0;
-    background: #cc0099;
+    background: var(--spawn-a-neko-primary-color, #cc0099);
     border: none;
     width: 2rem;
     height: 2rem;
@@ -16,21 +16,21 @@
 }
 
 .spawn-a-neko-button:hover {
-    background-color: #990099;
+    background-color: var(--spawn-a-neko-button-hover-color, #990099);
 }
 
 .spawn-a-neko-button:active {
-    background-color: #ff00ff;
+    background-color: var(--spawn-a-neko-button-active-color, #ff00ff);
 }
 
 .spawn-a-neko-panel {
     position: fixed;
     right: 3rem;
     bottom: 0;
-    background: #cc0099;
+    background: var(--spawn-a-neko-primary-color, #cc0099);
     transition: 0.5s;
     padding: 0.5rem;
-    border: 2px solid #660066;
+    border: 2px solid var(--spawn-a-neko-primary-color, #660066);
     border-radius: 0.25rem;
     font-family: sans-serif;
     color: white;
@@ -41,7 +41,7 @@
 }
 
 .spawn-a-neko-spawn-button {
-    background-color: #9900ff;
+    background-color: var(--spawn-a-neko-spawn-button-color, #9900ff);
     padding: 0.5rem;
     color: white;
     border: none;

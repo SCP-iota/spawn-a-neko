@@ -6,12 +6,20 @@ For an example of a site that includes the widget, see [my blog](https://scp-iot
 
 ## Usage
 
-### Include the CSS
+### Include the CSS in HTML
 
 You'll need to include the CSS in your page for this to work. Add this somewhere in your HTML `<head>`:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SCP-iota/spawn-a-neko@master/style.css" type="text/css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SCP-iota/spawn-a-neko@master/style.css" />
+```
+
+### Or Include it With a Bundler
+
+If you're using a JavaScript bundler like Webpack and already using a plugin to bundle CSS, you can import the CSS directly:
+
+```js
+import 'spawn-a-neko/style.css'
 ```
 
 ### Include the Script in HTML
@@ -25,7 +33,17 @@ Include this towards the end of your HTML's `<body>` element:
 </script>
 ```
 
-### Or Use with a JavaScript Bundler...
+### Or Use ESM...
+
+```js
+<script type="module">
+    import { start } from "https://cdn.skypack.dev/spawn-a-neko"
+
+    start()
+</script>
+```
+
+### Or Use With a JavaScript Bundler...
 
 If you're using a JavaScript bundler like Webpack, you can get the `spawn-a-neko` package from NPM and include it in your site's code.
 
@@ -45,6 +63,35 @@ window.addEventListener('load', start);
 
 ```js
 require("spawn-a-neko").start();
+```
+
+## Customizing Colors
+
+You can customize the colors using custom CSS properties in your own stylesheet. (The values shown here are the defaults.):
+
+```html
+<style>
+    .spawn-a-neko-button, .spawn-a-neko-panel {
+        /* Primary background color for the button and panel */
+        --spawn-a-neko-primary-color: #cc0099;
+
+        /* Border color of the panel */
+        --spawn-a-neko-border-color: #660066;
+    }
+
+    .spawn-a-neko-button {
+        /* Shown on the main button when hovered with the mouse pointer */
+        --spawn-a-neko-button-hover-color: #990099;
+
+        /* Shown on the main button when being pressed */
+        --spawn-a-neko-button-active-color: #ff00ff;
+    }
+
+    .spawn-a-neko-spawn-button {
+        /* Background color of the spawn button */
+        --spawn-a-neko-spawn-button-color: #9900ff;
+    }
+</style>
 ```
 
 ## Advanced Usage
